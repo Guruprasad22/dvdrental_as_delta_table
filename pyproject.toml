@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "delta-table-creator"
+version = "0.1.0"
+description = ""
+authors = ["guru.bobbi@gmail.com"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+findspark = "^2.0.1"
+pyspark = "3.4.0"
+delta-spark = "2.4.0"
+
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.0.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
